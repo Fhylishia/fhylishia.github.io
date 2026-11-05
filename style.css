@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #eb6284;
+    color: #631616;
+    text-align: center;
+}
+
+header {
+    background-color: #f2f2f2;
+    color: #3d3738 padding;
+}
+
+header h1 {
+    font-size: 38px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #631616;
+    color: #fff;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px 20px;
+    max-width: 700px;
+    margin: auto;
+}
+
+h2 {
+    color: #631616;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.skills span {
+    display: inline-block;
+    background-color: #631616;
+    color: #fff;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: bold;
+}
+
+.card {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.card a {
+    color: #631616;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.profile-pic{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #f2f2f2;
+    color: #3d3738;
+    padding: 20px;
+    margin-top: 50px;
+}
